@@ -34,5 +34,5 @@ RUN './comp.sh'
 COPY . /application
 WORKDIR /application
 
-ENTRYPOINT [ "sh", "./comp1.sh"]
+#ENTRYPOINT [ "sh", "./comp1.sh"]
 
